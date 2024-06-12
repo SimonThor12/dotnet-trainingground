@@ -1,0 +1,12 @@
+C:\Users\simon\salt\precourse\dotnet-trainingGround\TrainingGround\bin\Debug\net6.0\TrainingGround.deps.json
+C:\Users\simon\salt\precourse\dotnet-trainingGround\TrainingGround\bin\Debug\net6.0\TrainingGround.dll
+C:\Users\simon\salt\precourse\dotnet-trainingGround\TrainingGround\bin\Debug\net6.0\TrainingGround.pdb
+C:\Users\simon\salt\precourse\dotnet-trainingGround\TrainingGround\obj\Debug\net6.0\TrainingGround.csproj.AssemblyReference.cache
+C:\Users\simon\salt\precourse\dotnet-trainingGround\TrainingGround\obj\Debug\net6.0\TrainingGround.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\salt\precourse\dotnet-trainingGround\TrainingGround\obj\Debug\net6.0\TrainingGround.AssemblyInfoInputs.cache
+C:\Users\simon\salt\precourse\dotnet-trainingGround\TrainingGround\obj\Debug\net6.0\TrainingGround.AssemblyInfo.cs
+C:\Users\simon\salt\precourse\dotnet-trainingGround\TrainingGround\obj\Debug\net6.0\TrainingGround.csproj.CoreCompileInputs.cache
+C:\Users\simon\salt\precourse\dotnet-trainingGround\TrainingGround\obj\Debug\net6.0\TrainingGround.dll
+C:\Users\simon\salt\precourse\dotnet-trainingGround\TrainingGround\obj\Debug\net6.0\refint\TrainingGround.dll
+C:\Users\simon\salt\precourse\dotnet-trainingGround\TrainingGround\obj\Debug\net6.0\TrainingGround.pdb
+C:\Users\simon\salt\precourse\dotnet-trainingGround\TrainingGround\obj\Debug\net6.0\ref\TrainingGround.dll
