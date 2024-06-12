@@ -31,18 +31,6 @@ public class LoopTests
     }
 
     [Fact]
-    public void foreach_loop()
-    {
-        int[] arr = new int[] { 1, 2, 3, 4, 5 };
-
-        foreach (int i in arr)
-        {
-            Assert.Equal((int)i, i);
-        }
-
-    }
-
-    [Fact]
     public void address_list_loop()
     {
         var addressList = new List<Address>();
@@ -62,5 +50,30 @@ public class LoopTests
             i++;
         }
 
+    }
+
+    [Fact]
+    public void break_stops_loops()
+    {
+
+        var addressList = new List<Address>();
+        Address add1 = new Address() { Street = "Kungsgatan", StreetNo = 1 };
+        Address add2 = new Address() { Street = "Kungsgatan", StreetNo = 2 };
+        Address add3 = new Address() { Street = "Kungsgatan", StreetNo = 3 };
+        addressList.Add(add1);
+        addressList.Add(add2);
+        addressList.Add(add3);
+
+        bool foundIt = false;
+        foreach (Address address in addressList)
+        {
+            if (address.StreetNo == 2)
+            {
+                foundIt = true;
+                break;
+            }
+        }
+
+        Assert.True(foundIt);
     }
 }
