@@ -1,6 +1,6 @@
 using System.Net.Sockets;
 
-public class Person: IPrintable
+public class Person : IPrintable
 {
     public string? Name { get; private set; }
     public int BirthYear { get; private set; }
@@ -24,7 +24,13 @@ public class Person: IPrintable
 
     public int GetAge(int currentYear)
     {
-        return currentYear - this.BirthYear;
+        var age = currentYear - this.BirthYear;
+
+        if (age < 0)
+        {
+            throw new Exception("Not born yet");
+        }
+        return age;
     }
 
     public string GetPrintString()
