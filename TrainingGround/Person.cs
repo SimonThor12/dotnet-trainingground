@@ -30,7 +30,7 @@ public class Person: IPrintable
     public string GetPrintString()
     {
         return @$"{Name}
-        {this.Address.Street} {this.Address.StreetNo}
+        {this.Address!.Street} {this.Address.StreetNo}
         {this.Address.City}";
     }
 }
